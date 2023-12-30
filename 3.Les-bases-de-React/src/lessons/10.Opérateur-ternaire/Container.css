@@ -1,0 +1,17 @@
+label,
+input,
+button {
+  display: block;
+}
+label,
+button,
+input,
+p {
+  margin-bottom: 10px;
+}
+.validated {
+  color: greenyellow;
+}
+.pending {
+  color: crimson;
+}
