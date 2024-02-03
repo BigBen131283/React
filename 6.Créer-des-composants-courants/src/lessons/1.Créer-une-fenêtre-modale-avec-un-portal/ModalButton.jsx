@@ -9,7 +9,7 @@ export default function ModalButton() {
     <>
         <button
         onClick={() => setShowModal(true)}
-        className="block mx-auto bg-slate-200 text-slate-900 p-2 rounded">
+        className="block mx-auto bg-slate-200 text-slate-900 p-2 rounded m-10">
             Open the modal
         </button>
         {showModal && createPortal(<ModalContent closeModal = {() => setShowModal(false)}/>, document.body)}

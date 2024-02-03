@@ -16,7 +16,7 @@ export default function Tabs() {
   const [selectedTab, setSelectedTab] = useState(0)
   
   return (
-    <div className="min-h-[250px] max-w-xl mx-auto rounded border border-slate-400">
+    <div className="min-h-[250px] max-w-xl mx-auto rounded border border-slate-400 m-5">
       <div className="flex divide-x divide-slate-700">
         {tabsData.map((obj, index) => (
           <button
