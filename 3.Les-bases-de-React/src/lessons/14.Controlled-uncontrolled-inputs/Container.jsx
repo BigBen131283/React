@@ -25,7 +25,7 @@ export default function Container() {
         <label htmlFor="pseudo">Votre pseudo</label>
         <input 
         // Pour avoir un input contrôlé il faut faire ce qu'on appelle du "2 ways data binding"
-        // c'est à dire lié notre input au state et que le state soit lié à notre input
+        // c'est à dire lier notre input au state et que le state soit lié à notre input
         value={state}
         onChange={handleInput}
         type="text" 

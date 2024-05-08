@@ -24,7 +24,7 @@ export default function Container() {
     // Quand le composant n'est plus utilisé on n'a pas envie d'avoir un function qui tourne à l'infini
     // La cleanup function permet de nettoyer 
     // Cette fonction va être lancée quand mon composant se fait détruire, quand je ne l'affiche plus. Si j'ai un système d'onglet je n'ai plus envie d'afficher mon composant
-    // Qu'est-ce que c'est que intervalID? c'est ce que retourne la méthode setInterval. Il faut donc la mettre dans une constante "intervalID" (ligne 15)
+    // Qu'est-ce que c'est que intervalID? c'est ce que retourne la méthode setInterval. Il faut donc la mettre dans une constante "intervalID" (ligne 14)
     return () => clearInterval(intervalID)
   }, [])
 
