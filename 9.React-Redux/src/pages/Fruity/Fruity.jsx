@@ -5,6 +5,7 @@ import { addOne, removeOne } from "../../features/fruitsCart"
 export default function Fruity() {
     const fruitsList = useSelector(state => state.fruits)
     const dispatch = useDispatch()
+    // console.log(addOne());
 
   return (
     <>
